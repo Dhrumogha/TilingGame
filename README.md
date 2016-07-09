@@ -20,3 +20,7 @@ These are stored in the file tilingResults.txt. For each run, I store the timest
 I have done the computations using different versions of the application, so some of the times may look bizarre. The really long times count the intervals that my machine was hibernated, so they are not accurate. I've been able to go up to 30 squares (5x6) but beyond this, the times are just way too long. I would really like to see the solution for the standard 8x8 checkerboard.
 
 Suggestions on improving the efficiency are welcome. 
+
+Reference: “e-Valuate: A Two-player Game on Arithmetic Expressions”, Sarang Aravamuthan and Biswajit
+Ganguly, CoRR abs/1202.0862: (2012). Available online at https://arxiv.org/pdf/1202.0862v4.pdf
+
