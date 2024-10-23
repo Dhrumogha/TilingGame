@@ -1,7 +1,7 @@
 # TilingGame
 This application pertains to a tiling game on a checkerboard. Players MAX and MIN take turns placing non-overlapping dominoes on an m x n checkerboard until no more can be placed. The goal of MAX (resp. MIN) is to maximize (resp. minimize) the number of dominoes on the board. Under optimal play, this number reaches a certain value that we will call minimax(player, m, n) where player is the one who makes the first move. 
 
-For example, suppose we label the squares of the board by (i,j) i = 0,...,m-1 and j = 0,..., n-1. Then given a 1x6 board, MAX's first move would be [(0,2),(0,3)] resulting in minimax(MAX,1,6) = 3. On the other hand if MIN plays first, then his first move would be [(0,1),(0,2)] and minimax(MIN, 1, 6) = 2.
+For example, suppose we label the squares of the board by (i, j) i = 0,...,m-1 and j = 0,..., n-1. Then given a 1x6 board, MAX's first move would be [(0,2),(0,3)] resulting in minimax(MAX,1,6) = 3. On the other hand if MIN plays first, then his first move would be [(0,1),(0,2)] and minimax(MIN, 1, 6) = 2.
 
 Once the minimax value is computed, this can be converted to a game. After all the moves are made, the number of dominoes on the board is compared with the minimax value. If it's more, then MAX is the winner and if it's less, then MIN is the winner. If the two values are equal then its a draw.
 
